@@ -1,0 +1,60 @@
+#pixibotest {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  color: #388ce0;
+  font-size: 16px;
+  font-family: 'Raleway', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 20px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+}
+
+#pixibotest:hover {
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+}
+
+.modal {
+  font-size: 12px;
+  padding:20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 10px;
+  top: 15px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
